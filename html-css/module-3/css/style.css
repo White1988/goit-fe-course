@@ -27,6 +27,16 @@ body,p,button{
     margin-bottom: 100px;
 }
 
+.navigation li a{
+    font-family: "Playfair Display";
+  font-weight: 400;
+  color: #626262;
+  text-align: center;
+  text-transform: uppercase;
+  display: inline-block;
+  text-decoration: none;
+}
+
 .navigation li:last-child{
     margin-right: 0;
 }
