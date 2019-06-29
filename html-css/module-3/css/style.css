@@ -3,12 +3,15 @@
     padding: 0;
     box-sizing: border-box;
   }
-body,p,button{
+body{
     font-family: "Playfair Display", serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px;
     color: #626262;
+}
+p{
+    text-align: left;
 }
 
 .wrapper{
@@ -55,7 +58,7 @@ body,p,button{
 }
 
 .posts-wrap {
-    font-style: 0;
+    /* font-style: 0; */
     text-align: center;
 
 }
@@ -64,12 +67,12 @@ body,p,button{
     display: inline-block;
     width: 420px;
     font-size: 14px;
-    margin-right: 60px;
+    margin-right: 90px;
     margin-bottom: 130px;
 }
 
 .post:nth-child(even){
-    margin-right: 5;
+    margin-right: 0;
 }
 
 .post img{
