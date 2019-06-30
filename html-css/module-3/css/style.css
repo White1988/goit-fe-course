@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
   }
-body{
+body,p,button{
     font-family: "Playfair Display", serif;
     font-size: 14px;
     font-weight: 400;
@@ -15,7 +15,7 @@ p{
 }
 
 .wrapper{
-    width: 900;
+    width: 900px;
     margin: 0 auto;
 }
 
@@ -58,21 +58,26 @@ p{
 }
 
 .posts-wrap {
-    /* font-style: 0; */
+    font-style: 0;
     text-align: center;
 
 }
 
 .post {
     display: inline-block;
-    width: 420px;
-    font-size: 14px;
-    margin-right: 90px;
-    margin-bottom: 130px;
+  width: 420px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #626262;
+  font-family: "Playfair Display";
+  font-weight: 400;
+  margin-right: 50px;
+  margin-bottom: 130px;
+
 }
 
 .post:nth-child(even){
-    margin-right: 0;
+    margin-right: 0px;
 }
 
 .post img{
@@ -87,6 +92,10 @@ p{
     color: #b4ad9e;
     margin-top: 26px;
     margin-bottom: 30px;
+}
+h2{
+    text-align: left;
+
 }
 
 .post h2{
