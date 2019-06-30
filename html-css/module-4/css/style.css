@@ -11,6 +11,8 @@
   .wrapper {
     width: 1110px;
     margin: 0 auto;
+    padding-top:40px;
+
   }
   .clearfix::after {
     display: table;
@@ -28,9 +30,14 @@
     font-weight: 300;
     float: left;
   }
+
+  nav a{
+    text-decoration: none;
+    color: #515151;
+  }
   .page-header {
     margin-bottom: 112px;
-    margin-top: 42px;
+    /* margin-top: 42px; */
   }
   .logo::first-letter {
     color: #1abc9c;
@@ -103,18 +110,12 @@
   }
   /* Product Image */
   .product-image {
-    background-image: url("..//img/product-backgound.png");
-    text-align: center;
-    width: 255px;
-    height: 280px;
-    
+    background-color: #e8effc;
   }
+
   
   /* Product description  */
-  
-  .product-info {
-    width: 255px;
-  }
+
   
   .product-info h3 {
     width: 200px;
@@ -147,15 +148,11 @@
     background: #1abc9c;
   }
   
-  .product-block:hover .product-info p {
-    background: rgba(26, 188, 156, 0.4);
-  }
+ 
   
   /* Blog */
   .blog-post {
-    width: 350px;
-    height: 496px;
-  
+    width: 350px; 
     float: left;
   }
   .blog-post img {
