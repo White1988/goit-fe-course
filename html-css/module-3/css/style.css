@@ -59,6 +59,7 @@ p{
 
 .posts-wrap {
     font-style: 0;
+    font-size: 0;
     text-align: center;
 
 }
@@ -71,7 +72,7 @@ p{
   color: #626262;
   font-family: "Playfair Display";
   font-weight: 400;
-  margin-right: 50px;
+  margin-right: 60px;
   margin-bottom: 130px;
 
 }
