@@ -9,10 +9,10 @@ body {
   color: #515151;
 }
 
-.wrapper {
+/* .wrapper {
   width: 100%;
   margin: 0 auto;
-}
+} */
 
 .container {
   width: 1110px;
@@ -202,14 +202,16 @@ main {
   height: 8px;
   content: "";
   background-color: rgb(26, 188, 156);
-  margin: 0 auto;
+  /* margin: 0 auto;
   margin-top: 32px;
-  margin-bottom: 80px;
+  margin-bottom: 80px; */
+  margin: 32px auto 80px auto;
 }
 
 /* Product Card */
 .product-card {
   width: 255px;
+  position: relative;
 
   float: left;
   margin-bottom: 100px;
@@ -221,10 +223,11 @@ main {
   text-align: center;
   position: relative;
   object-fit: cover;
-  width: 255px;
+  display: block;
+  width: 100%;
 }
 .product-info {
-  width: 255px;
+  background-color: rgb(50, 50, 50);
   font-size: 18px;
   letter-spacing: 0px;
   line-height: 40px;
@@ -232,42 +235,42 @@ main {
   font-family: "Roboto", sans-serif;
   font-weight: 900;
 }
+.product-info a{
+  text-decoration: none;
+  color: white;
+}
 .product-info h3 {
   float: left;
   width: 200px;
   padding-left: 10px;
-  background-color: rgb(50, 50, 50);
+  /* background-color: rgb(50, 50, 50); */
   line-height: 40px;
 }
 .product-info p {
   width: 55px;
   float: right;
-  background-color: rgb(50, 50, 50, 0.7);
+  background-color: rgba(255, 255, 255, 0.5);;
   text-align: center;
 }
 
-.product-card:hover .product-info h3 {
+/* .product-card:hover .product-info h3 {
   background-color: rgb(26, 188, 156);
-}
-.product-card:hover .product-info p {
-  background-color: rgba(26, 188, 156, 0.4);
+} */
+.product-card:hover .product-info  {
+  background-color: rgb(26, 188, 156);
 }
 
 /* Overlay */
 
 .overlay {
   display: none;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border: 10px solid white;
+  top: 10px;
+  bottom: 10px;
+  left: 10px;
+  right: 10px;
+
   background-color: rgb(50, 50, 50, 0.7);
   position: absolute;
-  top: 0;
-  left: 0;
-  padding-top: 80px;
-  padding-bottom: 70px;
 }
 .cart-bn {
   margin: 0 auto;
@@ -279,11 +282,18 @@ main {
 .overlay-icons {
   list-style: none;
   background: transparent;
-  margin: 0 auto;
+  margin: auto;
+  width: 166px;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 .overlay-icons li {
-  display: inline-block;
+  float: left;
 }
 .box-icon {
   width: 50px;
@@ -298,7 +308,7 @@ main {
   background-position: center;
 }
 .overlay-icons li:nth-child(-n+2) {
-  margin-right: 10px;
+  margin-right: 8px;
 }
 
 .like {
@@ -337,7 +347,6 @@ main {
   content: url(../image/icons/cart.png);
   display: inline-block;
   vertical-align: middle;
-
   margin-top: 5px;
   margin-right: 5px;
 }
