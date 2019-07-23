@@ -225,6 +225,7 @@
   
   .card-image {
     position: relative;
+    height: 473px;
   }
   
   .overlay {
@@ -321,7 +322,7 @@
   form {
     display: flex;
   }
-  [type="button"] {
+  [type="submit"] {
     border: none;
     background-color: rgb(149, 225, 211);
     font-size: 14px;

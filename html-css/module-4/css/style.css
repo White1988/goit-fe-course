@@ -11,7 +11,7 @@
   .wrapper {
     width: 1110px;
     margin: 0 auto;
-    padding-top:40px;
+    /* padding-top:40px; */
 
   }
   .clearfix::after {
@@ -20,15 +20,19 @@
     clear: both;
   }
   /* Navigation */
-  .logo {
-    text-decoration: none;
-    font-size: 30px;
-    letter-spacing: -1px;
-    line-height: 32px;
-    color: #515151;
-    font-family: "Roboto";
-    font-weight: 300;
+  h1{
     float: left;
+  margin: 0;
+  }
+  .logo {
+    display: block;
+  text-decoration: none;
+  color: #555252;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 32px;
+  cursor: pointer;
   }
 
   nav a{
@@ -37,7 +41,7 @@
   }
   .page-header {
     margin-bottom: 112px;
-    /* margin-top: 42px; */
+    margin-top: 40px;
   }
   .logo::first-letter {
     color: #1abc9c;
@@ -112,7 +116,7 @@
   /* Product Image */
   .product-image {
     background-color: #e8effc;
-    height: 280px;
+    /* height: 280px; */
   }
 
   
