@@ -4,10 +4,13 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .container {
   width: 940px;
   margin: 0 auto;
 }
+
 .page-header {
   display: flex;
   justify-content: space-between;
@@ -15,6 +18,7 @@
   padding-top: 50px;
   margin-bottom: 127px;
 }
+
 .logo a {
   text-decoration: none;
   font-family: "Wisdom";
@@ -28,6 +32,7 @@
   list-style: none;
   display: flex;
 }
+
 .menu-item a {
   text-decoration: none;
   text-transform: uppercase;
@@ -39,9 +44,11 @@
   text-align: center;
   transition: color 0.2s linear;
 }
+
 .menu-item a:hover {
   color: #fed136;
 }
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
 }
@@ -56,6 +63,7 @@
   text-align: center;
   text-transform: uppercase;
 }
+
 .service-sub-heading {
   font-size: 16px;
   color: #777777;
