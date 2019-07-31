@@ -27,13 +27,13 @@ img {
   max-width: 100%;
   height: auto;
 }
-/* Seeting up the main page container width */
+/*  main page container width */
 .page-container {
   min-width: 322px;
   margin: 0 auto;
 }
 
-/* Page header */
+/*  header */
 .page-header {
   padding: 20px 60px 0 60px;
   margin-bottom: 15px;
@@ -137,7 +137,7 @@ img {
   padding: 14px 0 14px 0;
   text-align: center;
 }
-/* Styling partner section */
+/*  partner section */
 .partner-section {
   padding: 70px 15px 0 15px;
   
@@ -177,7 +177,7 @@ img {
   position: relative;
   margin-bottom: 20px;
 }
-/* adding icons */
+/*  icons */
 .partner-image::after {
   content: "";
   display: block;
@@ -191,7 +191,7 @@ img {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* Loading backgrounds for individual icons */
+/* backgrounds for icons */
 .tv-icon::after {
   background-color: #ff4e50;
   background-image: url("../img/icons/tv.png");
@@ -209,7 +209,7 @@ img {
   background-color: #4e73db;
   background-image: url("../img/icons/telegram.png");
 }
-/* styling partner description */
+/*  partner description */
 .partner-name {
   font-size: 1.4rem;
   color: #666666;
@@ -233,7 +233,7 @@ img {
   border-radius: 30px;
   margin-bottom: 56px;
 }
-/* MEDIA styling */
+/* MEDIA  */
 /* 768px and more */
 @media (min-width: 768px) {
   .page-container {
@@ -312,9 +312,7 @@ img {
 }
 /* 960px and more */
 @media (min-width: 960px) {
-  /* .page-container{
-    max-width: 940px;
-  } */
+ 
   .banner {
     min-height: 700px;
   }
