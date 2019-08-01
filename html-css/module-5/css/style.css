@@ -9,19 +9,15 @@ body {
   color: #515151;
 }
 
-/* .wrapper {
-  width: 100%;
-  margin: 0 auto;
-} */
-
 .container {
   width: 1110px;
   margin: 0 auto;
+
 }
 
 /* Page Header  */
 .page-header {
-  margin-top: 40px;
+  padding-top: 40px;
   margin-bottom: 40px;
 }
 /* Logo */
@@ -94,7 +90,7 @@ main {
 
 .banner {
   width: 100%;
-  height: 600px;
+  /* height: 600px; */
   margin: 0 auto;
   position: relative;
   margin-bottom: 100px;
@@ -103,6 +99,10 @@ main {
 
 .bn-slider {
   position: relative;
+}
+.bn-slider img{
+  height: 600px;
+   object-fit: cover;
 }
 .bn-slider::before {
   position: absolute;
